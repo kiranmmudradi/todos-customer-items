@@ -8,6 +8,10 @@ import org.springframework.web.bind.annotation.*;
 
 @RestController
 public class TodoItemsController {
+
+    public TodoItemsController(){
+        System.out.println("Testing TodoItemsController:: Kiran Mudradi");
+    }
     @Autowired
     private TodoItemsService todoItemsService;
     @PostMapping("/addTodoItem")
