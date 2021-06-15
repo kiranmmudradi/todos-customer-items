@@ -14,3 +14,4 @@ CMD [ \
 "-Dspring.datasource.password=password", \
 "target/todos-customer-items.jar" \
 ]
+
