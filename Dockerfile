@@ -12,5 +12,5 @@ CMD [ \
 "-Ddatasource.db=todosdb", \
 "-Dspring.datasource.username=root", \
 "-Dspring.datasource.password=password", \
-"target/todos-user-service.jar" \
+"target/todos-customer-items.jar" \
 ]
